@@ -180,6 +180,7 @@ main {
 
     .perfil {
         position: inherit;
+        margin-bottom: 20px;
     }
 
     .avatar {
@@ -198,7 +199,7 @@ main {
     .icon {
         position: relative;
         left: 25px;
-        top: -25px;
+        top: -45px;
     }
 
     .attribuition {
