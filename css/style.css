@@ -145,7 +145,7 @@ main {
         width: 320px;
         height: 400px;
         margin-top: 40px;
-        padding-bottom: 25px;
+        padding-bottom: 30px;
     }
 
     .img {
@@ -171,7 +171,7 @@ main {
         margin-top: 10px;
         margin-bottom: 60px;
         position: relative;
-        left: -30px;
+        right: 25px;
     }
 
     .text02 {
@@ -181,7 +181,7 @@ main {
         justify-content: center;
         text-align: center;
         position: relative;
-        left: -15px;
+        right: 25px;
     }
 
     .perfil {
