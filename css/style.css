@@ -1,0 +1,210 @@
+:root {
+    --back-ground: #ECF2F8;
+    --white: hsl(0, 0%, 100%);
+    --font-color01: #48556A;
+    --font-color02: #7A7F97;
+    --font01 :  ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font02 : ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font03 : 'Manrope', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-size: 15px;
+    background-color: var(--back-ground);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    display: flex;
+    width: 60%;
+    height: 45%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+.img {
+    width: 40%;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.text01 {
+    font-family: var(--font02);
+    font-size: 20px;
+    width: 455px;
+    color: var(--font-color01);
+    flex-wrap: wrap;
+}
+
+.text02 {
+    font-size: 16px;
+    width: 445px;
+    color: var(--font-color02);
+    position: relative;
+    top: -52px;
+    font-family: var(--font01);
+}
+
+
+.perfil {
+    position: absolute;
+    bottom: 12em;
+    right: 510px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    width: 45px;
+    height: 100%;
+    border-radius: 50%;
+    flex-direction: row;
+    margin-right: 20px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+.texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.name {
+    color: var(--font-color01);
+    font-size: 12px;
+    
+}
+
+
+.date {
+    display: flex;
+    flex-wrap: wrap;
+    color: var(--font-color02);
+}
+
+.icon {
+    width: 50px;
+    background-color: #ECF2F8;
+    border-radius: 50%;
+    padding: 18px;
+    position: relative;
+    top: 3px;
+    left: 189px;
+    top: -15px;
+}
+
+.share-icon {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.attribuition {
+    color: #7A7F97;
+    text-align: center;
+    position: relative;
+    bottom: 10em;
+}
+
+.attribuition a {
+    text-decoration: none;
+    color: #48556A;
+}
+
+.attribuition a:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1350px) {
+    main{
+        width: 100%;
+        height: unset;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        height: 500px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .img {
+        width: 100%;
+        height: 200px;
+    }
+
+    div .card-info {
+        display: flex;
+        width: 88%;
+        height: 90%;
+        margin: center;
+        position: relative;
+        left: 1em;
+    }
+
+    .text01 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 60px;
+    }
+
+    .text02 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .perfil {
+        position: inherit;
+    }
+
+    .avatar {
+        height: 95%;
+        position: relative;
+        right: 30px;
+        bottom: 25px;
+    }
+
+    .texts {
+        position: relative;
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .icon {
+        position: relative;
+        left: 25px;
+        top: -25px;
+    }
+
+    .attribuition {
+        position: relative;
+        bottom: 10px;
+        padding-bottom: 20px;
+    }
+}
