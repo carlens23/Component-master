@@ -27,7 +27,7 @@ main {
 .card {
     display: flex;
     width: 60%;
-    height: 45%;
+    height: 47%;
     border-radius: 10px;
     overflow: hidden;
     background-color: var(--white);
@@ -77,7 +77,7 @@ main {
     flex-direction: row;
     margin-right: 20px;
     position: relative;
-    bottom: 5px;
+    bottom: 0px;
 }
 
 
@@ -106,7 +106,7 @@ main {
     padding: 18px;
     position: relative;
     left: 189px;
-    top: -10px;
+    top: -5px;
 }
 
 .share-icon {
@@ -143,7 +143,7 @@ main {
         width: 320px;
         height: 500px;
         margin-top: 40px;
-        margin-bottom: 20px;
+        padding-bottom: 40px;
     }
 
     .img {
@@ -204,7 +204,7 @@ main {
 
     .attribuition {
         position: relative;
-        bottom: 10px;
+        bottom: -12px;
         padding-bottom: 20px;
     }
 }
