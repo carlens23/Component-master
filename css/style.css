@@ -181,7 +181,7 @@ main {
         justify-content: center;
         text-align: center;
         position: relative;
-        right: 15px;
+        left: -15px;
     }
 
     .perfil {
