@@ -141,9 +141,9 @@ main {
         display: flex;
         flex-direction: column;
         width: 320px;
-        height: 500px;
+        height: 510px;
         margin-top: 40px;
-        padding-bottom: 40px;
+        padding-bottom: 30px;
     }
 
     .img {
