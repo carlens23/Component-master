@@ -140,6 +140,8 @@ main {
     .card {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 320px;
         height: 510px;
         margin-top: 40px;
