@@ -145,7 +145,7 @@ main {
         width: 320px;
         height: 400px;
         margin-top: 40px;
-        padding-bottom: 35px;
+        padding-bottom: 46px;
     }
 
     .img {
@@ -171,7 +171,7 @@ main {
         margin-top: 10px;
         margin-bottom: 60px;
         position: relative;
-        left: -20px;
+        left: -30px;
     }
 
     .text02 {
