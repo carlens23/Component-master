@@ -143,9 +143,9 @@ main {
         justify-content: center;
         align-items: center;
         width: 320px;
-        height: 430px;
+        height: 435px;
         margin-top: 40px;
-        padding-bottom: 30px;
+        padding-bottom: 40px;
     }
 
     .img {
@@ -171,7 +171,7 @@ main {
         margin-top: 10px;
         margin-bottom: 60px;
         position: relative;
-        right: 18px;
+        right: 15px;
     }
 
     .text02 {
