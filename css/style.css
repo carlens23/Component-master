@@ -187,7 +187,7 @@ main {
         height: 95%;
         position: relative;
         right: 30px;
-        bottom: 25px;
+        bottom: 35px;
     }
 
     .texts {
@@ -199,7 +199,7 @@ main {
     .icon {
         position: relative;
         left: 25px;
-        top: -45px;
+        top: -40px;
     }
 
     .attribuition {
